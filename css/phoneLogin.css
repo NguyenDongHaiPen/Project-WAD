@@ -1,0 +1,131 @@
+@media(max-width: 900px)
+{
+    body
+    {
+        margin: 0;
+        height: 100%;
+        width: 100%;
+        background: rgb(248, 247, 247);
+    }
+
+    #signForm
+    {
+        display: block;
+    }
+
+    h1
+    {
+        color: #fff;
+        font-family: 'Noto Serif', serif;
+        margin-top: 10px;
+    }
+
+    #signUp
+    {
+        height: 42vh;
+        width: 100%;
+        background: #EB3349; 
+        background: -webkit-linear-gradient(to right, #F45C43, #EB3349);
+        background: linear-gradient(to right, #F45C43, #EB3349); 
+
+    }
+
+    #signUpWords
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    #loginWord
+    {
+        margin-left: 55px;
+    }
+
+    #signUpWord
+    {
+        margin-left: 25px;
+    }
+
+    .logoImg
+    {
+        width: 50%;
+        height: 150px;
+        margin-left: 25%;
+        margin-top: 20px;
+    }
+
+    .form-control
+    {
+        background: #fff;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 60px;
+        padding: 10px 16px;
+        background: #fff;
+        margin-left: 7%;
+        width: 80%;
+    }
+
+    #form
+    {
+        margin-bottom: 50px;
+    }
+
+    #submitBtn
+    {
+        margin-top: 35px;
+        margin-left: 25%;
+        -moz-border-radius:28px;
+        -webkit-border-radius:28px;
+        border-radius:28px;
+        border: 2px solid #FE7235;
+        cursor:pointer;
+        color: #f2f2f2;
+        font-family: 'Bitter', serif;
+        font-size: 20px;
+        padding: 16px 60px;
+        text-decoration:none;
+        background: #FE7235;
+    }
+
+    #badFeedBack
+    {
+        background: #fff;
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid #EA384D;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 50px;
+        padding: 10px 16px;
+        background: #fff;
+        margin-left: 7%;
+        width: 80%;
+        color: #EA384D;
+    }
+
+    #logos
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        
+    }
+
+    #signUpWord
+    {
+        color: #32373d;
+    }
+
+
+    .logo
+    {
+        height: 50px;
+        width: 50px;
+    }
+}

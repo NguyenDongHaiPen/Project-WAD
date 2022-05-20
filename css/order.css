@@ -1,0 +1,208 @@
+@media(min-width: 900px)
+{
+    body
+    {
+        margin: 0;
+    }
+
+    #onOrder
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+    }
+
+    #orderForm
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        margin-top: 20px;
+        margin-left: 50px;
+    }
+
+    #textSide
+    {
+        background-image: url('../images/siginWallpaper.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+
+    #formSide
+    {
+        background: #222;
+    }
+
+    .formcontrol
+    {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: none;
+        color: #f2f2f2;
+        background-color: #363636;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        padding: 8px 16px;
+        width: 220px;
+    }
+
+    #logoSignInText
+    {
+        font-family: 'Acme', sans-serif;
+        color: #f2f2f2;
+        margin-left: 150px;
+        text-decoration: underline;
+    }
+
+
+    #submitBtn
+    {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: none;
+        color: #f2f2f2;
+        background-color: rgb(245, 97, 5);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        padding: 8px 16px;
+        width: 240px;
+        font-family: 'Bitter', serif;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+
+    label
+    {
+        color: #f2f2f2;
+        font-family: 'Bitter', serif;
+    }
+
+    #foodLogo
+    {
+        background: #181818;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    #logInHelpText
+    {
+        color: #f2f2f2;
+        font-family: 'Bitter', serif;
+    }
+
+    #spanLogin
+    {
+        color: rgb(245, 97, 5);
+        cursor: pointer;
+    }
+
+
+    #promo
+    {
+        color: #222;
+        font-size: 35px;  
+    }
+
+    #promo2
+    {
+        color: #222;
+        font-size: 35px;  
+    }
+
+    #promo3
+    {
+        color: #222;
+        font-size: 35px;  
+    }
+
+    #changethewords
+    {
+        margin-top: 100px;
+        margin-left: 140px;
+        font-family: 'Acme', sans-serif;
+    }
+
+
+    #credits
+    {
+        color: #f2f2f2;
+        font-family: 'Bree Serif', serif;
+    }
+
+    #creditsBox
+    {
+        display: grid;
+        justify-items: center;
+    }
+
+    #iconToHomePage
+    {
+        margin-left: 80%;
+    }
+
+    #toHomePage
+    {
+        fill:  #222;
+        height: 50px;
+        width: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        cursor: pointer;
+    }
+
+    #toHomePage:hover
+    {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        background: #FFD200;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        fill: #f2f2f2;
+    }
+
+    #badFeedBack
+    {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: 2px solid #EA384D;
+        color: #EA384D;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 14px;
+        padding: 8px 16px;
+        width: 240px;
+        font-family: 'Bitter', serif;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+
+    #goodFeedBack
+    {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: 2px solid rgb(25, 175, 32);
+        color: rgb(25, 175, 32);
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 14px;
+        padding: 8px 16px;
+        width: 240px;
+        font-family: 'Bitter', serif;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-left: 150px;
+        margin-top: 20px;
+    }
+    
+}
+

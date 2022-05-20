@@ -1,0 +1,285 @@
+@media(min-width: 900px)
+{    
+    #restaurants
+    {
+        width: 100%;
+        height: 100vh;
+    }
+
+
+    .restShape
+    {
+        width: 250px;
+        height: 500; 
+    }
+
+    #restaurantsDiv
+    {
+        display: grid;
+        grid-template-columns: 1% 33% 33% 33%;
+        margin-top: 50px;
+    }
+
+    #kfc
+    {
+        width: 250px;
+        height: 400px;
+        background: #fff;
+        margin-left: 65px;
+        -moz-box-shadow: -4px -8px 31px -5px rgb(24, 32, 53), 10px 5px 31px 3px rgb(24, 32, 53);
+        -webkit-box-shadow: -4px -8px 31px -5px rgb(24, 32, 53), 10px 5px 31px 3px rgb(24, 32, 53);
+        box-shadow: -4px -8px 31px -5px rgb(24, 32, 53), 10px 5px 31px 2px rgb(24, 32, 53);
+    }
+
+    #pizzaHut
+    {
+        margin-left: 65px;
+        width: 250px;
+        height: 400px;
+        background: #fff;
+        -moz-box-shadow: -4px -8px 31px -5px rgb(24, 32, 53), 10px 5px 31px 3px rgb(24, 32, 53);
+        -webkit-box-shadow: -4px -8px 31px -5px rgb(24, 32, 53), 10px 5px 31px 3px rgb(24, 32, 53);
+        box-shadow: -4px -8px 31px -5px rgb(24, 32, 53), 10px 5px 31px 2px rgb(24, 32, 53);
+    }
+
+    #javas
+    {
+        width: 250px;
+        height: 400px;
+        background: #fff;
+        margin-left: 50px;
+        -moz-box-shadow: -4px -8px 31px -5px rgb(24, 32, 53), 10px 5px 31px 3px rgb(24, 32, 53);
+        -webkit-box-shadow: -4px -8px 31px -5px rgb(24, 32, 53), 10px 5px 31px 3px rgb(24, 32, 53);
+        box-shadow: -4px -8px 31px -5px rgb(24, 32, 53), 10px 5px 31px 2px rgb(24, 32, 53);
+    }
+
+    .restNames
+    {
+        font-family: 'Bree serif', serif;
+        color: rgb(17, 23, 39);
+    }
+
+    .locText
+    {
+        font-family: 'Bitter', serif;
+        color: rgb(17, 23, 39);
+        margin-left: 50px;
+    }
+
+    .restBtn
+    {
+        -moz-border-radius:28px;
+        -webkit-border-radius:28px;
+        border-radius:28px;
+        border: 2px solid rgb(24, 32, 53);
+        cursor:pointer;
+        color: #f2f2f2;
+        font-family: 'Bitter', serif;
+        font-size: 20px;
+        padding: 16px 60px;
+        text-decoration:none;
+        background: rgb(24, 32, 53);
+        margin-top: 25px;
+        margin-left: 5px;
+    }
+
+    .restBtn:hover
+    {
+        border: 2px solid #FE7235;
+        background: #FE7235;
+    }
+
+    #restMenu
+    {
+        height: 50px;
+        width: 50px;
+        margin-top: 150px;
+        fill: rgb(17, 23, 39);
+        cursor: pointer;
+        background: #E79796;
+        -moz-border-radius: 38px;
+        -webkit-border-radius: 38px;
+        border-radius: 38px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        margin-left: 5px;
+
+    }
+
+    #restMenu:hover
+    {
+        fill: #fff;
+    }
+
+    #howMenu
+    {
+        height: 50px;
+        width: 50px;
+        margin-top: 10px;
+        fill: rgb(17, 23, 39);
+        cursor: pointer;
+        background: #E79796;
+        -moz-border-radius: 38px;
+        -webkit-border-radius: 38px;
+        border-radius: 38px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+
+    }
+
+    #howMenu:hover
+    {
+        fill: #fff;
+    }
+
+    #javasName
+    {
+        margin-left: 25%;
+        text-decoration: underline;
+    }
+
+    #pizzaName
+    {
+        margin-left: 25%;
+        text-decoration: underline;
+    }
+
+    #kfcName
+    {
+        margin-left: 25%;
+        text-decoration: underline;
+    }
+
+    #restHeader
+    {
+        font-family: 'Acme', sans-serif;
+        color: rgb(17, 23, 39);
+        margin-left: 40%;
+        text-decoration: underline;
+        margin-top: 10px;
+
+    }
+
+    .footerLogos
+    {
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+    }
+
+    .footerFont
+    {
+        font-family: 'Noto Serif', serif;
+        color: #f2f2f2;
+        cursor: pointer;
+    }
+
+    .footerFont:hover
+    {
+        color: rgb(17, 23, 39);
+        text-decoration: underline
+    }
+
+    #footer
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin-top: 20px;
+        background: #E79796;
+    }
+
+    #footerRight
+    {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        margin-top: 35px;
+    }
+
+    #footerCenter
+    {
+        margin-left: 50px;
+    }
+
+    #footerLeft
+    {
+        margin-left: 50px;
+        margin-top: 25px;
+    }
+
+    .locators
+    {
+        height: 20px;
+        width: 20px;
+        float: left;
+        margin-left: 20px;
+    }
+
+    #theRealMenu
+    {
+        display: grid;
+        grid-template-columns: 20% 70% 10%;
+        background: #F5EBAF;
+        width: 100%;
+        height: 100vh;
+    }
+
+    #realMenuHeader
+    {
+        color: #FEA735;
+        font-size: 30px;
+        -webkit-transform: rotate(-10deg);
+        -moz-transform: rotate(-10deg);
+        -ms-transform: rotate(-10deg);
+        -o-transform: rotate(-10deg);
+        font-family: 'Pacifico', cursive;
+        margin-left: 25px;
+        margin-top: 25px;
+    }
+
+    #realMenuTags
+    {
+        margin-left: 200px;
+        margin-top: 100px;
+
+    }
+
+    .realMenuTagText
+    {
+        font-family: 'Acme', sans-serif;
+        color: rgb(17, 23, 39);
+        font-size: 40px;
+    }
+
+    .realMenuTagText:hover
+    {
+        color: #FEA735;
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    #realMenuClear
+    {
+        margin-top: 70px;
+        height: 50px;
+        width: 50px;
+        fill: #fff;
+        cursor: pointer;
+        background: #FE7235;
+        -moz-border-radius: 38px;
+        -webkit-border-radius: 38px;
+        border-radius: 38px;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+
+    #realMenuClear:hover
+    {
+        fill: rgb(17, 23, 39);
+    }
+}

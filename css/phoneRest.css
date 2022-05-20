@@ -1,0 +1,173 @@
+@media(max-width: 900px)
+{
+    body
+    {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        background: rgb(243, 242, 242);
+    }
+
+    
+
+    .locations
+    {
+        margin-left: 40px;
+    }
+    .restShape
+    {
+        width: 300px;
+        height: 300; 
+    }
+
+    #restaurantsDiv
+    {
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        margin-top: 50px;
+    }
+
+    .locators
+    {
+        height: 20px;
+        width: 20px;
+        float: left;
+        margin-left: 20px;
+    }
+
+    #kfc
+    {
+        width: 300px;
+        height: 400px;
+        background: #fff;
+        margin-left: 40px;
+    }
+
+    #pizzaHut
+    {
+        width: 300px;
+        height: 400px;
+        background: #fff;
+        margin-left: 40px;
+    }
+
+    #javas
+    {
+        width: 300px;
+        height: 400px;
+        background: #fff;
+        margin-left: 40px;
+    }
+
+    .restNames
+    {
+        font-family: 'Bree serif', serif;
+        color: rgb(17, 23, 39);
+    }
+
+    .locText
+    {
+        font-family: 'Bitter', serif;
+        color: rgb(17, 23, 39);
+        margin-left: 50px;
+    }
+
+    .restBtn
+    {
+        -moz-border-radius:28px;
+        -webkit-border-radius:28px;
+        border-radius:28px;
+        border: 2px solid rgb(24, 32, 53);
+        cursor:pointer;
+        color: #f2f2f2;
+        font-family: 'Bitter', serif;
+        font-size: 20px;
+        padding: 16px 60px;
+        text-decoration:none;
+        background: rgb(24, 32, 53);
+        margin-top: 25px;
+        margin-left: 35px;
+    }
+
+    .restBtn:hover
+    {
+        border: 2px solid #FE7235;
+        background: #FE7235;
+    }
+
+    #javasName
+    {
+        margin-left: 25%;
+        text-decoration: underline;
+        margin-top: 10px;
+    }
+
+    #pizzaName
+    {
+        margin-left: 25%;
+        text-decoration: underline;
+        margin-top: 10px;
+    }
+
+    #kfcName
+    {
+        margin-left: 25%;
+        text-decoration: underline;
+        margin-top: 10px;
+    }
+
+    .footerIcons
+    {
+        height: 40px;
+        width: 40px;    
+        fill: #181818;
+        cursor: pointer;
+    }
+
+    #footer
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        background: #fff;
+        width: 100%;
+        padding: 10px 0;   
+        position: sticky;  
+        bottom: 0;  
+        
+    }
+
+    .ftFixed
+    {
+        margin-left: 15px;
+    }
+
+    .iconTxt
+    {
+        color: #181818;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+    .iconTxtC
+    {
+        margin-left: 10px;
+        color: #181818;
+        font-family: 'Roboto', sans-serif;
+    }
+
+
+    .iconTxtH
+    {
+        color: #f05a28;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .homeIcon
+    {
+        height: 40px;
+        width: 40px;
+        fill: #f05a28;
+        cursor: pointer;
+    }
+
+}

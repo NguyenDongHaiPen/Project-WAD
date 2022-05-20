@@ -1,0 +1,208 @@
+@media(min-width: 900px)
+{
+    #loginFeedBack
+    {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: 2px solid #EA384D;
+        color: #EA384D;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 14px;
+        padding: 8px 16px;
+        width: 240px;
+        font-family: 'Bitter', serif;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-left: 150px;
+    }
+    
+    #goodFeedBack
+    {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: 2px solid #00F260;
+        color: #00F260;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 14px;
+        padding: 8px 16px;
+        width: 240px;
+        font-family: 'Bitter', serif;
+        margin-top: 20px;
+        cursor: pointer;
+        margin-left: 150px;
+    }
+    
+    
+    #loginPage
+    {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        width: 100%;
+    }
+    
+    #loginForm
+    {
+        display: grid;
+        margin-top: 10px;
+        margin-left: 100px;
+    }
+    
+    #login-ImgSide
+    {
+        background-image: url('../images/siginWallpaper.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 100vh;
+    }
+    
+    #loginSide
+    {
+        background: #222;
+    }
+    
+    .formcontrol-Login
+    {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: none;
+        color: #f2f2f2;
+        background-color: #363636;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        padding: 8px 16px;
+        width: 350px;
+        margin-top: 5px;
+    }
+    
+    #logoLogInText
+    {
+        font-family: 'Acme', sans-serif;
+        color: #f2f2f2;
+        margin-left: 150px;
+        text-decoration: underline;
+    }
+    
+    
+    #submitBtn-login
+    {
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border: none;
+        color: #f2f2f2;
+        background-color: rgb(245, 97, 5);
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 24px;
+        padding: 8px 16px;
+        width: 380px;
+        font-family: 'Bitter', serif;
+        margin-top: 20px;
+        cursor: pointer;
+    }
+    
+    label
+    {
+        color: #f2f2f2;
+        font-family: 'Bitter', serif;
+    }
+    
+    #loginLogo
+    {
+        background: #181818;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    #helpText
+    {
+        color: #f2f2f2;
+        font-family: 'Bitter', serif;
+    }
+    
+    #spanSignUp
+    {
+        color: rgb(245, 97, 5);
+        cursor: pointer;
+    }
+    
+    
+    #promo-login
+    {
+        color: #222;
+        font-size: 35px;  
+    }
+    
+    #promo2-login
+    {
+        color: #222;
+        font-size: 35px;  
+    }
+    
+    #promo3-login
+    {
+        color: #222;
+        font-size: 35px;  
+    }
+    
+    #changethewords-login
+    {
+        margin-top: 100px;
+        margin-left: 140px;
+        font-family: 'Acme', sans-serif;
+    }
+    
+    #credits-login
+    {
+        color: #f2f2f2;
+        font-family: 'Bree Serif', serif;
+    }
+    
+    #creditsBox-login
+    {
+        display: grid;
+        justify-items: center;
+    }
+    
+    #backToHome
+    {
+        margin-left: 80%;
+    }
+    
+    #backHome
+    {
+        fill:  #222;
+        height: 50px;
+        width: 50px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        cursor: pointer;
+    }
+    
+    #backHome:hover
+    {
+        padding-top: 25px;
+        padding-bottom: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+        background: #FFD200;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        fill: #f2f2f2;
+    }
+    
+    #permission
+    {
+        color: #FFD200;
+        font-size: 30px;
+        font-family: 'Bree Serif', serif;
+    }
+}
+
+
