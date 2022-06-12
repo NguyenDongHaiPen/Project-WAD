@@ -10,7 +10,7 @@
 <th>Item Name</th>
 <th>Quantity</th>
 <th>Price</th>
-<th>Amount</th>
+
 </tr>
 <?php
 session_start();
@@ -41,11 +41,12 @@ while ($rows=mysqli_fetch_array($run))
       echo '<input type="number" name="Quantity[]" value="1" size=5 style="text-align: center;"';
       echo "</td>";
       echo "<td>";
-      echo '<input type="number" name="Price[]" value="'. $rows["Price"].'" size=5 style="text-align: center;" disabled';
-      echo "</td>";
-      echo "<td>";
       echo $rows["Price"];
+      
       echo "</td>";
+
+      echo '<input type="hidden" name="Price[]" value="'. $rows["Price"].'" size=5 style="text-align: center;" disabled';
+
       echo "<td>";
       
 }

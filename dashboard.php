@@ -66,6 +66,8 @@ $(document).ready(function() {
                         echo '<div class="card" >';
                         
                         echo '<div class="card-body">';
+                        echo '<img class="card-img-top" src="images\\'.$rows['MenuItemID'].'.jpg" height="120px" width="800px"  alt="'.$rows['ItemName'].'" >';
+
                         echo '<p class="card-text">'.$rows['ItemName'].'</p>';
                         echo '<p class="card-text">$'.$rows['Price'].'</p>';
                         $key=$rows["MenuItemID"];

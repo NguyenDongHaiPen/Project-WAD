@@ -38,7 +38,8 @@
               <div class="form-group">
                   <label for="exampleInputName">Discount</label>
                   <input type="string" class="form-control" id="Discount" name="Discount"  placeholder="Discount">
-         
+
+                  
               </div>
               <button type="submit" class="btn btn-primary">Submit</button>
             </form>
